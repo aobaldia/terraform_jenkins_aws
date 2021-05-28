@@ -52,7 +52,7 @@ provider "aws" {
 
 # Veamos la creación automática de la llave privada
 variable "key_name" {
-   default = "<nombre_llave>"
+   default = "alfredo_key"
 }
 
 resource "tls_private_key" "private_key" {
